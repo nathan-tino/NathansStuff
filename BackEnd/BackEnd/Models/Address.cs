@@ -13,10 +13,10 @@ namespace NathansStuff.Models
         [MaxLength(40)]
         public string City { get; set; } = null!;
 
-        [MaxLength(40)]
+        [Column(TypeName = "char(2)")]
         public string State { get; set; } = null!;
 
-        [Column(TypeName = "char(2)")]
+        [MaxLength(40)]
         public string Country { get; set; } = null!;
         public int Phone { get; set; }
         public int ZipCode { get; set; }
