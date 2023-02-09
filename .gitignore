@@ -475,3 +475,5 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+/BackEnd/.vs/NathansStuffWebApi/v17/.suo
+/BackEnd/.vs/BackEnd/DesignTimeBuild/.dtbcache.v2
